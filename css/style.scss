@@ -307,69 +307,71 @@ $bg_light: #f5f5f5;
         }
     }
 }
-.contacts {
-    background-color: #445162;
-
-    &__title {
-        color: #fff;
-    }
-
-    &__form {
-        display: flex;
-        flex-direction: column;
-        width: 500px;
-
-        &__input {
-            margin-bottom: 20px;
-            border-radius: 5px;
-            padding: 10px 14px;
-            font-size: 16px;
-            line-height: 1.5;
-            color: #445162;
-            border: none;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-    }
-
-    &__btn {
-        width: 140px;
-        margin: 0 auto;
-    }
-
-    &__item {
-        position: relative;
-
-        &::before {
-            content: '';
-            display: block;
-            position: absolute;
-            top: 0;
-            left: -30px;
-            width: 20px;
-            height: 20px;
-
-        }
-
-        &.skype::before {
-            background-image: url(../img/skype-icon.png);
-        }
-        &.icq::before {
-            background-image: url(../img/icq-icon.png);
-        }
-        &.email::before {
-            background-image: url(../img/email-icon.png);
-        }
-        &.phone::before {
-            background-image: url(../img/phone-icon.png);
-        }
-    }
-}
 .footer {
+    .contacts {
+        background-color: #445162;
+
+        // .container {
+        //     padding: 10px 50px 5px;
+        // }
+    
+        &__title {
+            color: #fff;
+        }
+    
+        &__form {
+            display: flex;
+            flex-direction: column;
+            width: 500px;
+    
+            &__input {
+                margin-bottom: 20px;
+                border-radius: 5px;
+                padding: 10px 14px;
+                font-size: 16px;
+                line-height: 1.5;
+                color: #445162;
+                border: none;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+        }
+    
+        &__btn {
+            width: 140px;
+            margin: 0 auto;
+        }
+    
+        &__item {
+            position: relative;
+    
+            &::before {
+                content: '';
+                display: block;
+                position: absolute;
+                top: 0;
+                left: -30px;
+                width: 20px;
+                height: 20px;
+    
+            }
+    
+            &.skype::before {
+                background-image: url(../img/skype-icon.png);
+            }
+            &.icq::before {
+                background-image: url(../img/icq-icon.png);
+            }
+            &.email::before {
+                background-image: url(../img/email-icon.png);
+            }
+            &.phone::before {
+                background-image: url(../img/phone-icon.png);
+            }
+        }
+    }
     background-color: $bg_light;
 
-    .container {
-        padding: 10px 50px 5px;
-    }
+   
 
     &__coopyright {
         text-align: center;
