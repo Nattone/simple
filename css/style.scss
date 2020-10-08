@@ -1,6 +1,9 @@
 body {
     min-width: 320px;
     font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 * {
@@ -9,11 +12,6 @@ body {
     box-sizing: border-box;
 }
 
-.wrapper {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
 .main {
     flex-grow: 1;
 }

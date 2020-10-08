@@ -1,16 +1,6 @@
 body {
   min-width: 320px;
   font-family: Arial, Helvetica, sans-serif;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-.wrapper {
   min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -19,6 +9,13 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .main {
