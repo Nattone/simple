@@ -318,11 +318,17 @@ $bg_light: #f5f5f5;
         &__title {
             color: #fff;
         }
+
+        &__wrapper {
+            display: flex;
+            padding: 0 100px;
+        }
     
         &__form {
             display: flex;
             flex-direction: column;
-            width: 500px;
+            width: 70%;
+            padding-right: 46px;
     
             &__input {
                 margin-bottom: 20px;
@@ -340,6 +346,11 @@ $bg_light: #f5f5f5;
             width: 140px;
             margin: 0 auto;
         }
+
+        &__list {
+            padding-left: 30px;
+            margin-bottom: 30px;
+        }
     
         &__item {
             position: relative;
@@ -348,24 +359,71 @@ $bg_light: #f5f5f5;
                 content: '';
                 display: block;
                 position: absolute;
-                top: 0;
+                top: 50%;
+                transform: translateY(-50%);
                 left: -30px;
-                width: 20px;
-                height: 20px;
-    
             }
     
             &.skype::before {
                 background-image: url(../img/skype-icon.png);
+                width: 24px;
+                height: 26px;
             }
             &.icq::before {
                 background-image: url(../img/icq-icon.png);
+                width: 26px;
+                height: 26px;
             }
             &.email::before {
                 background-image: url(../img/email-icon.png);
+                width: 22px;
+                height: 22px;
             }
             &.phone::before {
                 background-image: url(../img/phone-icon.png);
+                width: 24px;
+                height: 23px;
+            }
+        }
+
+        &__link {
+            color: #fff;
+            text-decoration: none;
+            transition: color .3s ease;
+
+            &:hover {
+                cursor: pointer;
+                color: #8e97a0;
+            }
+        }
+
+        &__social {
+            list-style: none;
+            display: flex;
+
+            .social__link {
+                background-image: url(../img/social-buttons.png);
+                background-repeat: no-repeat;
+                height: 44px;
+                width: 44px;
+                display: inline-block;
+                margin-right: 6px;
+
+                &.twitter {
+                    background-position: -0 top;
+                }
+                &.facebook {
+                    background-position: -49px top;
+                }
+                &.linkedin {
+                    background-position: -98px top;
+                }
+                &.google {
+                    background-position: -149px top;
+                }
+                &.youtube {
+                    background-position: -198px top;
+                }
             }
         }
     }
