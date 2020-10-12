@@ -382,7 +382,7 @@ body {
   padding-right: 46px;
 }
 
-.footer .contacts__form__input {
+.footer .contacts__form-input {
   margin-bottom: 20px;
   border-radius: 5px;
   padding: 10px 14px;
@@ -417,25 +417,25 @@ body {
   left: -30px;
 }
 
-.footer .contacts__item.skype::before {
+.footer .contacts__item--skype::before {
   background-image: url(../img/skype-icon.png);
   width: 24px;
   height: 26px;
 }
 
-.footer .contacts__item.icq::before {
+.footer .contacts__item--icq::before {
   background-image: url(../img/icq-icon.png);
   width: 26px;
   height: 26px;
 }
 
-.footer .contacts__item.email::before {
+.footer .contacts__item--email::before {
   background-image: url(../img/email-icon.png);
   width: 22px;
   height: 22px;
 }
 
-.footer .contacts__item.phone::before {
+.footer .contacts__item--phone::before {
   background-image: url(../img/phone-icon.png);
   width: 24px;
   height: 23px;
@@ -469,23 +469,23 @@ body {
   margin-right: 6px;
 }
 
-.footer .contacts__social .social__link.twitter {
+.footer .contacts__social .social__link--twitter {
   background-position: -0 top;
 }
 
-.footer .contacts__social .social__link.facebook {
+.footer .contacts__social .social__link--facebook {
   background-position: -49px top;
 }
 
-.footer .contacts__social .social__link.linkedin {
+.footer .contacts__social .social__link--linkedin {
   background-position: -98px top;
 }
 
-.footer .contacts__social .social__link.google {
+.footer .contacts__social .social__link--google {
   background-position: -149px top;
 }
 
-.footer .contacts__social .social__link.youtube {
+.footer .contacts__social .social__link--youtube {
   background-position: -198px top;
 }
 

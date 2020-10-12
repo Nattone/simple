@@ -330,7 +330,7 @@ $bg_light: #f5f5f5;
             width: 70%;
             padding-right: 46px;
     
-            &__input {
+            &-input {
                 margin-bottom: 20px;
                 border-radius: 5px;
                 padding: 10px 14px;
@@ -364,22 +364,22 @@ $bg_light: #f5f5f5;
                 left: -30px;
             }
     
-            &.skype::before {
+            &--skype::before {
                 background-image: url(../img/skype-icon.png);
                 width: 24px;
                 height: 26px;
             }
-            &.icq::before {
+            &--icq::before {
                 background-image: url(../img/icq-icon.png);
                 width: 26px;
                 height: 26px;
             }
-            &.email::before {
+            &--email::before {
                 background-image: url(../img/email-icon.png);
                 width: 22px;
                 height: 22px;
             }
-            &.phone::before {
+            &--phone::before {
                 background-image: url(../img/phone-icon.png);
                 width: 24px;
                 height: 23px;
@@ -409,19 +409,19 @@ $bg_light: #f5f5f5;
                 display: inline-block;
                 margin-right: 6px;
 
-                &.twitter {
+                &--twitter {
                     background-position: -0 top;
                 }
-                &.facebook {
+                &--facebook {
                     background-position: -49px top;
                 }
-                &.linkedin {
+                &--linkedin {
                     background-position: -98px top;
                 }
-                &.google {
+                &--google {
                     background-position: -149px top;
                 }
-                &.youtube {
+                &--youtube {
                     background-position: -198px top;
                 }
             }
