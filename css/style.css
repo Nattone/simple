@@ -156,6 +156,10 @@ body {
   width: 30%;
 }
 
+.about__video:focus {
+  outline: none;
+}
+
 .dignity {
   background-color: #f5f5f5;
 }
