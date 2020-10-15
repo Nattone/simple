@@ -62,6 +62,11 @@ body {
         border: 2px solid #fff;
         color: #fff;
     }
+    &:focus,
+    &:active {
+        outline: none;
+        box-shadow: 0 0 1pt 2pt #35b83e;
+    }
 }
 
 $bg_light: #f5f5f5;
@@ -137,6 +142,7 @@ $bg_light: #f5f5f5;
     &__video {
         &:focus {
             outline: none;
+            box-shadow: 0 0 1pt 2pt #35b83e;
         }
     }
 }
@@ -341,6 +347,12 @@ $bg_light: #f5f5f5;
                 color: #445162;
                 border: none;
                 font-family: Arial, Helvetica, sans-serif;
+
+                &:focus,
+                &:active {
+                    outline: none;
+                    box-shadow: 0 0 1pt 2pt #35b83e;
+                }
             }
         }
     
@@ -397,6 +409,11 @@ $bg_light: #f5f5f5;
                 cursor: pointer;
                 color: #8e97a0;
             }
+            &:focus,
+            &:active {
+                outline: none;
+                box-shadow: 0 0 1pt 2pt #35b83e;
+            }
         }
 
         &__social {
@@ -425,6 +442,12 @@ $bg_light: #f5f5f5;
                 }
                 &--youtube {
                     background-position: -198px top;
+                }
+
+                &:focus,
+                &:active {
+                    outline: none;
+                    box-shadow: 0 0 1pt 2pt #35b83e;
                 }
             }
         }
