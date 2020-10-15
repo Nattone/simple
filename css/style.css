@@ -127,6 +127,15 @@ body {
   width: 40%;
 }
 
+.about {
+  /*
+    &__img {
+        height: 250px;
+        width: 30%;
+    }
+*/
+}
+
 .about.container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -151,9 +160,8 @@ body {
   margin-bottom: 20px;
 }
 
-.about__img {
-  height: 250px;
-  width: 30%;
+.about__video:focus {
+  outline: none;
 }
 
 .dignity {

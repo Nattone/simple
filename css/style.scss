@@ -128,10 +128,16 @@ $bg_light: #f5f5f5;
     &__text {
         margin-bottom: 20px;
     }
-
+/*
     &__img {
         height: 250px;
         width: 30%;
+    }
+*/
+    &__video {
+        &:focus {
+            outline: none;
+        }
     }
 }
 
