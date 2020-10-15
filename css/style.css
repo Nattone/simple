@@ -468,7 +468,7 @@ body {
   display: flex;
 }
 
-.footer .contacts__social .social__link {
+.footer .contacts__social-link {
   background-image: url(../img/social-buttons.png);
   background-repeat: no-repeat;
   height: 44px;
@@ -477,23 +477,23 @@ body {
   margin-right: 6px;
 }
 
-.footer .contacts__social .social__link--twitter {
+.footer .contacts__social-link--twitter {
   background-position: -0 top;
 }
 
-.footer .contacts__social .social__link--facebook {
+.footer .contacts__social-link--facebook {
   background-position: -49px top;
 }
 
-.footer .contacts__social .social__link--linkedin {
+.footer .contacts__social-link--linkedin {
   background-position: -98px top;
 }
 
-.footer .contacts__social .social__link--google {
+.footer .contacts__social-link--google {
   background-position: -149px top;
 }
 
-.footer .contacts__social .social__link--youtube {
+.footer .contacts__social-link--youtube {
   background-position: -198px top;
 }
 

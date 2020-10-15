@@ -316,10 +316,6 @@ $bg_light: #f5f5f5;
 .footer {
     .contacts {
         background-color: #445162;
-
-        // .container {
-        //     padding: 10px 50px 5px;
-        // }
     
         &__title {
             color: #fff;
@@ -407,7 +403,7 @@ $bg_light: #f5f5f5;
             list-style: none;
             display: flex;
 
-            .social__link {
+            &-link {
                 background-image: url(../img/social-buttons.png);
                 background-repeat: no-repeat;
                 height: 44px;
