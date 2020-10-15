@@ -82,8 +82,8 @@ body {
 
 .btn:focus, .btn:active {
   outline: none;
-  -webkit-box-shadow: 0 0 1pt 2pt #35b83e;
-          box-shadow: 0 0 1pt 2pt #35b83e;
+  -webkit-box-shadow: 0 0 1px 2px #35b83e;
+          box-shadow: 0 0 1px 2px #35b83e;
 }
 
 .header {
@@ -168,8 +168,8 @@ body {
 
 .about__video:focus {
   outline: none;
-  -webkit-box-shadow: 0 0 1pt 2pt #35b83e;
-          box-shadow: 0 0 1pt 2pt #35b83e;
+  -webkit-box-shadow: 0 0 1px 2px #35b83e;
+          box-shadow: 0 0 1px 2px #35b83e;
 }
 
 .dignity {
@@ -411,8 +411,8 @@ body {
 
 .footer .contacts__form-input:focus, .footer .contacts__form-input:active {
   outline: none;
-  -webkit-box-shadow: 0 0 1pt 2pt #35b83e;
-          box-shadow: 0 0 1pt 2pt #35b83e;
+  -webkit-box-shadow: 0 0 1px 2px #35b83e;
+          box-shadow: 0 0 1px 2px #35b83e;
 }
 
 .footer .contacts__btn {
@@ -477,8 +477,8 @@ body {
 
 .footer .contacts__link:focus, .footer .contacts__link:active {
   outline: none;
-  -webkit-box-shadow: 0 0 1pt 2pt #35b83e;
-          box-shadow: 0 0 1pt 2pt #35b83e;
+  -webkit-box-shadow: 0 0 1px 2px #35b83e;
+          box-shadow: 0 0 1px 2px #35b83e;
 }
 
 .footer .contacts__social {
@@ -519,8 +519,8 @@ body {
 
 .footer .contacts__social-link:focus, .footer .contacts__social-link:active {
   outline: none;
-  -webkit-box-shadow: 0 0 1pt 2pt #35b83e;
-          box-shadow: 0 0 1pt 2pt #35b83e;
+  -webkit-box-shadow: 0 0 1px 2px #35b83e;
+          box-shadow: 0 0 1px 2px #35b83e;
 }
 
 .footer__coopyright {
