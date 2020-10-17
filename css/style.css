@@ -80,6 +80,12 @@ body {
   color: #fff;
 }
 
+.btn:focus, .btn:active {
+  outline: none;
+  -webkit-box-shadow: 0 0 1px 2px #35b83e;
+          box-shadow: 0 0 1px 2px #35b83e;
+}
+
 .header {
   background-color: #4d4d4d;
   color: #fff;
@@ -127,6 +133,15 @@ body {
   width: 40%;
 }
 
+.about {
+  /*
+    &__img {
+        height: 250px;
+        width: 30%;
+    }
+*/
+}
+
 .about.container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -151,9 +166,10 @@ body {
   margin-bottom: 20px;
 }
 
-.about__img {
-  height: 250px;
-  width: 30%;
+.about__video:focus {
+  outline: none;
+  -webkit-box-shadow: 0 0 1px 2px #35b83e;
+          box-shadow: 0 0 1px 2px #35b83e;
 }
 
 .dignity {
@@ -378,7 +394,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 70%;
+  width: 65%;
   padding-right: 46px;
 }
 
@@ -391,6 +407,12 @@ body {
   color: #445162;
   border: none;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer .contacts__form-input:focus, .footer .contacts__form-input:active {
+  outline: none;
+  -webkit-box-shadow: 0 0 1px 2px #35b83e;
+          box-shadow: 0 0 1px 2px #35b83e;
 }
 
 .footer .contacts__btn {
@@ -453,6 +475,12 @@ body {
   color: #8e97a0;
 }
 
+.footer .contacts__link:focus, .footer .contacts__link:active {
+  outline: none;
+  -webkit-box-shadow: 0 0 1px 2px #35b83e;
+          box-shadow: 0 0 1px 2px #35b83e;
+}
+
 .footer .contacts__social {
   list-style: none;
   display: -webkit-box;
@@ -460,7 +488,7 @@ body {
   display: flex;
 }
 
-.footer .contacts__social .social__link {
+.footer .contacts__social-link {
   background-image: url(../img/social-buttons.png);
   background-repeat: no-repeat;
   height: 44px;
@@ -469,24 +497,30 @@ body {
   margin-right: 6px;
 }
 
-.footer .contacts__social .social__link--twitter {
+.footer .contacts__social-link--twitter {
   background-position: -0 top;
 }
 
-.footer .contacts__social .social__link--facebook {
+.footer .contacts__social-link--facebook {
   background-position: -49px top;
 }
 
-.footer .contacts__social .social__link--linkedin {
+.footer .contacts__social-link--linkedin {
   background-position: -98px top;
 }
 
-.footer .contacts__social .social__link--google {
+.footer .contacts__social-link--google {
   background-position: -149px top;
 }
 
-.footer .contacts__social .social__link--youtube {
+.footer .contacts__social-link--youtube {
   background-position: -198px top;
+}
+
+.footer .contacts__social-link:focus, .footer .contacts__social-link:active {
+  outline: none;
+  -webkit-box-shadow: 0 0 1px 2px #35b83e;
+          box-shadow: 0 0 1px 2px #35b83e;
 }
 
 .footer__coopyright {
